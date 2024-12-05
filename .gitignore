@@ -2,4 +2,8 @@
 Lib/
 Scripts/
 pyvenv.cfg
+allGUI.py
+app.py
+guiInterface.py
+app.py
 

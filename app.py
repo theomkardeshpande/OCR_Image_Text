@@ -1,11 +1,11 @@
 import cv2
 import pytesseract
 from fpdf import FPDF
-import os
-import guiInterface
+# import os
+# import guiInterface
 
 
-guiInterface.selectFile()
+# guiInterface.selectFile()
 # image file path
 file_path='Testing/typewritten.jpeg'
 
@@ -47,7 +47,7 @@ cv2.imwrite('temp/no_noise.jpg',no_noise)
 text=pytesseract.image_to_string(no_noise)
 print(text)
 
-textfile=open('output.txt','w')
+textfile=open('Output/output.txt','w')
 textfile.write(text)
 textfile.close()
 
@@ -59,5 +59,5 @@ def textToPDF(inputText):
     pdf.multi_cell(w=0, h=6, text=inputText, align="J")
     pdf.output("Output/Output.pdf")
 textToPDF(text)
-os.startfile('C:/Users/DELL/Desktop/MCA Sem1_project/Project/Output/Output.pdf')
+
 

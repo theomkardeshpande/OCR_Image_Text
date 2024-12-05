@@ -1,0 +1,17 @@
+Chakra
+
+Single Shot 1 Piece Per Box
+
+DiscountRate
+
+Single Shot 2 Piece Per Box
+
+Items Discount Rate
+
+Single Shot 3 Piece Per Box
+
+Multi Shot
+SR Items Qty Rate Discount Rate
+Rocket
+
+SR Items Qty Rate Discount Rate
